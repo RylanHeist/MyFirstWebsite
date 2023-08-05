@@ -1,0 +1,99 @@
+body {
+    background-color:aquamarine;
+  }
+
+  .top-page-header{
+    color: chocolate;
+    font-weight: 900;
+    text-shadow: gray 1px 1px;
+  }
+/*I made the body of every page the same color here and the titles of each page styled with bolder text and a shadow*/
+
+  .links-box{
+    background-color: azure;
+    border-style: solid;
+    border-color:black;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 5px;
+  }
+/*This I made a class to apply to all the links and put them in a box with a border*/
+
+  #inspiration{
+    font-weight: 800;
+  }
+
+  #neltharion{
+    float: left
+  }
+
+  #useful-links{
+    color: coral;
+    font-weight: 800;
+  }
+/*The above 3 ids are for the paragraphs and image, which I moved left and bolded and change the color of*/
+
+  #adventure{
+    float: left
+  }
+
+  #application{
+    border-color: black;
+    border-style: dashed;
+    border-radius: 7px;
+  }
+
+  #app-home{
+    text-shadow: gray 1px 1px;
+  }
+
+  #form-header{
+    text-shadow: gray 1px 1px;
+  }
+/*The above 4 ids are for the form and various headers, making them have a text shadow and a more defined border for the form*/
+
+  #ranks-home{
+    text-shadow: gray 1px 1px;
+  }
+
+  #the-light{
+    float: right;
+  }
+
+  .rank-list li:nth-child(1) {
+    background-color: orangered;
+  }
+
+  .rank-list li:nth-child(2) {
+    background-color: forestgreen
+  }
+
+  .rank-list li:nth-child(3) {
+    background-color: goldenrod
+  }
+
+  .rank-list li:nth-child(4) {
+    background-color: red
+  }
+/*The above 4 class stylings are for the list more differeniate the different roles*/
+
+  .ranks-para-header{
+    text-shadow: gray 1px 1px;
+  }
+
+  #schedule-table{
+    border-collapse: collapse;
+    width: 70%;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+  }
+
+  tr:hover {
+    background-color: goldenrod;
+  }
+
+/*The above 4 stylings are for the table I made to list events, making them easier to read across the table*/
